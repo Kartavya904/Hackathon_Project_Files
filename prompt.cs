@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public GameObject Text1;
-    public string EachInput;
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -17,20 +16,22 @@ public class PlayerMovement : MonoBehaviour
     {   
         if (Input.GetKeyDown(KeyCode.Enter)) {
             Text1.SetActive(true);
-            EachInput = Inpu
-            if (Input.GetKeyDown(KeyCode.1)) {
+            if (Input.GetKeyDown(KeyCode.1)) 
+            {
                 
             }
-            else if (Input.GetKeyDown(KeyCode.2)) {
+            else if (Input.GetKeyDown(KeyCode.2)) 
+            {
 
             }
-            else if (Input.GetKeyDown(KeyCode.3)) {
+            else if (Input.GetKeyDown(KeyCode.3)) 
+            {
             
             }
-            else {
+            else 
+            {
                 Text1.SetActive(false);
             }
         }
-        
     }
 }
