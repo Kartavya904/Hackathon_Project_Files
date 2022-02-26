@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movespeed = 10f; //Player movement speed
-    public float rotatespeed = 75f; //Player rotation speed
-
-    private float vInput; //Vertical Input
-    private float hInput; //Horizontal Input
-
-    private Rigidbody _rb;
-
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
